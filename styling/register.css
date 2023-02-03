@@ -1,0 +1,43 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.frontPageContainer{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #04090a;
+    color: #F2F0FA;
+    font-family: sans-serif;
+}
+a{
+    color: #F2F0FA;
+}
+.registerBox{
+    padding: 0.75rem;
+    background-color: #1A1A1B;
+    border: silver 1px solid;
+    border-radius: 0.375rem;
+}
+.registerForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.registerForm div{
+    display: flex;
+    flex-direction: column;
+}
+.registerForm *{
+    margin: 4px 0;
+}
+input{
+    background-color: #272729;
+    border: silver 1px solid;
+    border-radius: 0.25rem;
+    color: #F2F0FA;
+    padding: 0.25rem;
+}

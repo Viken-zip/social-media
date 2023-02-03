@@ -1,0 +1,92 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.topbar{
+    height: 100px;
+    background-color: #FAA6FF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+    border-bottom: #0F1020 solid 1px;
+    box-shadow: 0px 1px 3px 0px #3f4261;
+}
+.mainTitle{
+    margin: 0 auto;
+    font-size: 2rem;
+}
+.profile{
+    height: 60px;
+    width: 60px;
+    background-color: white;
+    border-radius: 100%;
+    margin-left: 0.5rem;
+}
+.siteLogo{
+    text-decoration: none;
+    font-size: 1.75rem;
+    color: #0F1020;
+}
+.profileBox{
+    border-radius: 0.5rem;
+    display: flex;
+    padding: 0.25rem 0.5rem;
+    user-select: none;
+    align-items: center;
+}
+.profileBox:hover{
+    border: #04090a solid 1.5px;
+    margin-right: -1.5px;  
+    cursor: pointer; 
+}
+.profileSideInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.profileSideInfo h3{
+    margin-bottom: 0.25rem;
+}
+.profileSideInfo span{
+    margin-left: auto;
+}
+.profileSideInfo *{
+    margin: 0;
+}
+.profileDropDown{
+    border: #F2F0FA solid 1.5px;
+    color: #F2F0FA;
+    background-color: #04090a;
+    border-radius: 0.5rem;
+    top: 90px;
+    width: auto;
+    height: auto;
+    padding-bottom: 0;
+    position: absolute;
+    display: none;
+    flex-direction: column;
+}
+.profileModalBtn{
+    padding: 0.25rem 0.5rem;
+    color: #F2F0FA;
+    text-decoration: none;
+    width: auto;
+}
+.profileModalBtn input{
+    margin-right: 0.5rem;
+}
+.profileDropDown *:first-child{
+    padding-top: 0.5rem;
+    border-radius: 0.5rem 0.5rem 0 0;
+}
+.profileDropDown *:last-child{
+    padding-bottom: 0.5rem;
+    border-radius: 0 0 0.5rem 0.5rem;
+}
+.profileModalBtn:hover{
+    background-color: #2F195F;
+}
+.dropdownIcon{
+    margin-right: 1rem;
+}
