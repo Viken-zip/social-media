@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <?php
     session_start();
-$uid = (isset($_SESSION['uid'])) ? $_SESSION['uid'] : '';
+    $uid = (isset($_SESSION['uid'])) ? $_SESSION['uid'] : '';
 ?>
 <html lang="en">
 <head>
